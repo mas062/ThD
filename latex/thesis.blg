@@ -1,0 +1,134 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: scientific_environment.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: listofpublications.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: introduction_papers.aux
+A level-1 auxiliary file: papers.aux
+A level-1 auxiliary file: appendixA.aux
+The style file: acm.bst
+Database file #1: thesis.bib
+I was expecting a `,' or a `}'---line 539 of file thesis.bib
+ : 
+ : doi     = {10.1016/j.advwatres.2011.11.001}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 742 of file thesis.bib
+ : @book{houghton2001climate
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 944 of file thesis.bib
+ : @inproceedings{saltelli4global
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 961 of file thesis.bib
+ : @inproceedings{reuter2008global
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 979 of file thesis.bib
+ : @article{crestaux2009polynomial
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1001 of file thesis.bib
+ : @article{OladNowakBarros_AWR2011
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1013 of file thesis.bib
+ : @article{Zhang_Lu_2004_JCP
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1024 of file thesis.bib
+ : @article{foo_pcm_JCP2010
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1036 of file thesis.bib
+ : @article{Fajraoui_al_2011_WRR
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1063 of file thesis.bib
+ : @book{Villadsen1978
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1072 of file thesis.bib
+ : @book{Abramowitz1965
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1080 of file thesis.bib
+ : @article{Morris1991
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1102 of file thesis.bib
+ : @article{Jang1994
+ :                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1151 of file thesis.bib
+ :   
+ :   publisher={Mac Graw Hill, New York}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1192 of file thesis.bib
+ :   
+ :   journal={University of Bergen},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1214 of file thesis.bib
+ : @article{yortsos1983analytical
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1243 of file thesis.bib
+ : @article{yortsos1983analytical
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1392 of file thesis.bib
+ :   
+ :   year={2010}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in eleniuseffects
+Warning--empty year in lie2010accurate
+Warning--empty publisher in muskatflow
+Warning--empty year in saltelli4global
+You've used 71 entries,
+            2293 wiz_defined-function locations,
+            946 strings with 17312 characters,
+and the built_in function-call counts, 22854 in all, are:
+= -- 2110
+> -- 1162
+< -- 0
++ -- 495
+- -- 408
+* -- 1822
+:= -- 3758
+add.period$ -- 212
+call.type$ -- 71
+change.case$ -- 405
+chr.to.int$ -- 0
+cite$ -- 75
+duplicate$ -- 806
+empty$ -- 1910
+format.name$ -- 408
+if$ -- 4661
+int.to.chr$ -- 0
+int.to.str$ -- 71
+missing$ -- 75
+newline$ -- 357
+num.names$ -- 142
+pop$ -- 488
+preamble$ -- 1
+purify$ -- 342
+quote$ -- 0
+skip$ -- 405
+stack$ -- 0
+substring$ -- 1275
+swap$ -- 147
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 268
+warning$ -- 4
+while$ -- 214
+width$ -- 73
+write$ -- 689
+(There were 18 error messages)
