@@ -7,8 +7,9 @@
 # But for safety, let's handle correctly a one argument call,
 #    i.e., $1=source, with no $2
 
-if [ "$2" = "" ]; then
-   dvipdfmx $1
-else
-   dvipdfmx -o $2 $1
-fi
+#if [ "$2" = "" ]; then
+#   dvipdfmx $1
+#else
+#   dvipdfmx -o $2 $1
+#fi
+dvipdfmx thesis.dvi
