@@ -1,0 +1,438 @@
+\begin{thebibliography}{10}
+
+\bibitem{aavatsmark2004bevarelsesmetoder}
+{\sc Aavatsmark, I.}
+\newblock Bevarelsesmetoder for elliptiske di erensialligninger.
+\newblock \url{http://www.mi.uib.no/~aavat/elliptisk.pdf}, 2004.
+
+\bibitem{aavatsmark2004bevarelsesmetoderHP}
+{\sc Aavatsmark, I.}
+\newblock Bevarelsesmetoder for hyperbolske differensialligninger.
+\newblock \url{http://www.mi.uib.no/~aavat/hyperbolsk.pdf}, 2004.
+
+\bibitem{Abramowitz1965}
+{\sc Abramowitz, M., and Stegun, I., A.}
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}.
+\newblock New York: Dover, 1965.
+
+\bibitem{alkan2010impact}
+{\sc Alkan, H., Cinar, Y., and {\"U}lker, E.}
+\newblock Impact of capillary pressure, salinity and in situ conditions on co 2
+  injection into saline aquifers.
+\newblock {\em Transport in porous media 84}, 3 (2010), 799--819.
+
+\bibitem{allen1986theoretical}
+{\sc Allen, F., and Puckett, D.}
+\newblock Theoretical and experimental studies of rate-dependent two-phase
+  immiscible flow.
+\newblock {\em SPE Production Engineering 1}, 1 (1986), 62--74.
+
+\bibitem{arwade2010variance}
+{\sc Arwade, S., Moradi, M., and Louhghalam, A.}
+\newblock Variance decomposition and global sensitivity for structural systems.
+\newblock {\em Engineering Structures 32}, 1 (2010), 1--10.
+
+\bibitem{bachu2000sequestration}
+{\sc Bachu, S.}
+\newblock {Sequestration of $\mbox{CO}_2$ in geological media: criteria and
+  approach for site selection in response to climate change}.
+\newblock {\em Energy Conversion and Management 41}, 9 (2000), 953--970.
+
+\bibitem{bashore1993importance}
+{\sc Bashore, W., Araktingi, U., Levy, M., and Schweller, W.}
+\newblock The importance of the geological model for reservoir characterization
+  using geostatistical techniques and the impact on subsequent fluid flow.
+\newblock In {\em SPE Annual Technical Conference and Exhibition\/} (1993).
+
+\bibitem{bear1988dynamics}
+{\sc Bear, J.}
+\newblock {\em Dynamics of fluids in porous media}.
+\newblock Dover publications, 1988.
+
+\bibitem{krLib}
+{\sc Benson~Lab, S.~U.}
+\newblock Relative pereability explorer(rpe).
+\newblock \url{
+  http://pangea.stanford.edu/research/bensonlab/relperm/index.html }.
+
+\bibitem{bentsen1993effect}
+{\sc Bentsen, R.}
+\newblock Effect of neglecting viscous coupling and dynamic capillary pressure
+  on the one-dimensional flow of two immiscible phases through a porous medium.
+\newblock {\em SPE paper}, 026016 (1993).
+
+\bibitem{binning1999practical}
+{\sc Binning, P., and Celia, M.}
+\newblock Practical implementation of the fractional flow approach to
+  multi-phase flow simulation.
+\newblock {\em Advances in water resources 22}, 5 (1999), 461--478.
+
+\bibitem{bradshaw2001geological}
+{\sc Bradshaw, J., and Cook, P.}
+\newblock Geological sequestration of carbon dioxide.
+\newblock {\em Environmental Geosciences 8}, 3 (2001), 149.
+
+\bibitem{caers2002multiple}
+{\sc Caers, J., and Zhang, T.}
+\newblock {Multiple-point geostatistics: a quantitative vehicle for integrating
+  geologic analogs into multiple reservoir models}.
+\newblock {\em AAPG\/} (2002).
+
+\bibitem{celia2011geological}
+{\sc Celia, M., and Nordbotten, J.}
+\newblock {\em Geological Storage of CO2: Modeling Approaches for Large-Scale
+  Simulation}.
+\newblock Wiley, 2011.
+
+\bibitem{chen1990integral}
+{\sc Chen, Z., Bodvarsson, G., and Witherspoon, P.}
+\newblock An integral equation formulation for two-phase flow and other
+  nonlinear flow problems through porous media.
+\newblock In {\em SPE Annual Technical Conference and Exhibition\/} (1990).
+
+\bibitem{class2009benchmark}
+{\sc Class, H., Ebigbo, A., Helmig, R., Dahle, H., Nordbotten, J., Celia, M.,
+  Audigane, P., Darcis, M., Ennis-King, J., Fan, Y., et~al.}
+\newblock A benchmark study on problems related to $\mbox{CO}_2$ storage in
+  geologic formations.
+\newblock {\em Computational Geosciences 13}, 4 (2009), 409--434.
+
+\bibitem{crestaux2009polynomial}
+{\sc Crestaux, T., et~al.}
+\newblock Polynomial chaos expansion for sensitivity analysis.
+\newblock {\em Reliability Engineering \& System Safety 94}, 7 (2009),
+  1161--1172.
+
+\bibitem{dong1999effect}
+{\sc Dong, M., and Dullien, F.}
+\newblock Effect of capillary forces on immiscible displacement in porous
+  media.
+\newblock In {\em SPE Annual Technical Conference and Exhibition\/} (1999).
+
+\bibitem{duan2006equation}
+{\sc Duan, Z., and Zhang, Z.}
+\newblock Equation of state of the h2o, co2, and h2o-co2 systems up to 10 gpa
+  and 2573.15 k: Molecular dynamics simulations with ab initio potential
+  surface.
+\newblock {\em Geochimica et cosmochimica acta 70}, 9 (2006), 2311--2324.
+
+\bibitem{eaton2006importance}
+{\sc Eaton, T.}
+\newblock {On the importance of geological heterogeneity for flow simulation}.
+\newblock {\em Sedimentary Geology 184}, 3-4 (2006), 187--201.
+
+\bibitem{elenius2012time}
+{\sc Elenius, M., and Johannsen, K.}
+\newblock On the time scales of nonlinear instability in miscible displacement
+  porous media flow.
+\newblock {\em Computational Geosciences\/} (2012), 1--11.
+
+\bibitem{eleniuseffects}
+{\sc Elenius, M., NORDBOTTEN, J., and Kalisch, H.}
+\newblock Effects of a capillary transition zone on the stability of a
+  diffusive boundary layer.
+
+\bibitem{elenius2010co2}
+{\sc Elenius, M., Tchelepi, H., and Johannsen, K.}
+\newblock $\mbox{CO}_2$ trapping in sloping aquifers: High resolution numerical
+  simulations.
+\newblock In {\em XVIII International Conference on Water Resources, CIMNE,
+  Barcelona\/} (2010).
+
+\bibitem{Fajraoui_al_2011_WRR}
+{\sc Fajraoui, N., Ramasomanana, F., Younes, A., Mara, T. A.and~Ackerer, P.,
+  and Guadagnini, A.}
+\newblock Use of global sensitivity analysis and polynomial chaos expansion for
+  interpretation of non-reactive transport experiments in laboratory-scale
+  porous media.
+\newblock {\em Water Resour. Res.}, doi:10.1029/2010WR009639 (2011).
+
+\bibitem{farajzadeh2011analytical}
+{\sc Farajzadeh, R., and Bruining, J.}
+\newblock An analytical method for predicting the performance of
+  gravitationally-unstable flow in heterogeneous media.
+\newblock In {\em SPE EUROPEC/EAGE Annual Conference and Exhibition\/} (2011).
+
+\bibitem{fayers1959effect}
+{\sc Fayers, F., and Sheldon, J.}
+\newblock The effect of capillary pressure and gravity on two-phase fluid flow
+  in a porous medium.
+\newblock {\em Trans. AIME 216\/} (1959), 147.
+
+\bibitem{foo_pcm_JCP2010}
+{\sc Foo, J., and Karniadakis, G.}
+\newblock {Multi-element probabilistic collocation method in high dimensions}.
+\newblock {\em Journal of Computational Physics 229}, 5 (2010), 1536--1557.
+
+\bibitem{foukal2006variations}
+{\sc Foukal, P., Fr{\"o}hlich, C., Spruit, H., and Wigley, T.}
+\newblock Variations in solar luminosity and their effect on the earth's
+  climate.
+\newblock {\em Nature 443}, 7108 (2006), 161--166.
+
+\bibitem{Ghanem1993}
+{\sc Ghanem, R., and Spanos, P.}
+\newblock A stochastic galerkin expansion for nonlinear random vibration
+  analysis.
+\newblock {\em Probabilistic Engineering Mechanics 8\/} (1993), 255--264.
+
+\bibitem{grayderivation}
+{\sc GRAY, W., HERRERA, P., GASDA, S., and DAHLE, H.}
+\newblock Derivation of vertical equilibrium models for $\mbox{CO}_2$ migration
+  from pore scale equations.
+\newblock {\em International Journal of Numerical Analysis and Modeling\/}
+  (2011).
+
+\bibitem{greenwood1969compressibility}
+{\sc Greenwood, H.}
+\newblock The compressibility of gaseous mixtures of carbon dioxide and water
+  between 0 and 500 bars pressure and 450 and 800 centigrade.
+\newblock {\em Am. J. Sci 267\/} (1969), 191--208.
+
+\bibitem{gunter1997aquifer}
+{\sc Gunter, W., Wiwehar, B., and Perkins, E.}
+\newblock Aquifer disposal of co 2-rich greenhouse gases: extension of the time
+  scale of experiment for co 2-sequestering reactions by geochemical modelling.
+\newblock {\em Mineralogy and Petrology 59}, 1 (1997), 121--140.
+
+\bibitem{hadley1956theoretical}
+{\sc Hadley, G., and Handy, L.}
+\newblock A theoretical and experimental study of the steady state capillary
+  end effect.
+\newblock In {\em Fall Meeting of the Petroleum Branch of AIME\/} (1956).
+
+\bibitem{hassanzadeh2005modelling}
+{\sc Hassanzadeh, H., Pooladi-Darvish, M., and Keith, D.}
+\newblock Modelling of convective mixing in co storage.
+\newblock {\em Journal of Canadian Petroleum Technology 44}, 10 (2005).
+
+\bibitem{hitchon1999sedimentary}
+{\sc Hitchon, B., Gunter, W., Gentzis, T., and Bailey, R.}
+\newblock Sedimentary basins and greenhouse gases: a serendipitous association.
+\newblock {\em Energy Conversion and Management 40}, 8 (1999), 825--843.
+
+\bibitem{houghton2001climate}
+{\sc Houghton, J., et~al.}
+\newblock {\em {Climate change 2001: the scientific basis}}, vol.~881.
+\newblock Cambridge University Press Cambridge, 2001.
+
+\bibitem{howell2008sedimentological}
+{\sc Howell, J., Skorstad, A., MacDonald, A., Fordham, A., Flint, S.,
+  Fjellvoll, B., and Manzocchi, T.}
+\newblock {Sedimentological parameterization of shallow-marine reservoirs}.
+\newblock {\em Petroleum Geoscience 14}, 1 (2008), 17--34.
+
+\bibitem{Isukapalli1998}
+{\sc Isukapalli, S., S., Roy, A., and Georgopoulos, P., G.}
+\newblock Stochastic response surface methods (srsms) for uncertainty
+  propagation: Application to environmental and biological systems.
+\newblock {\em Risk Analysis 18}, 3 (1998), 351--363.
+
+\bibitem{Jang1994}
+{\sc Jang, Y., S., Sitar, N., and Kiureghian, A., D.}
+\newblock Reliability analysis of contaminant transport in saturated porous
+  media.
+\newblock {\em Water Resources Research 30}, 8 (1994), 2435--2448.
+
+\bibitem{Keese2003}
+{\sc Keese, A., and Matthies, H.~G.}
+\newblock Sparse quadrature as an alternative to mc for stochastic finite
+  element techniques.
+\newblock {\em Proc. Appl. Math. Mech. 3\/} (2003), 493--494.
+
+\bibitem{nLi2007}
+{\sc Li, H., and Zhang, D.}
+\newblock Probabilistic collocation method for flow in porous media:
+  Comparisons with other stochastic methods.
+\newblock {\em Water Resources Research 43\/} (2007), 44--48.
+
+\bibitem{lie2011open}
+{\sc Lie, K., Krogstad, S., Ligaarden, I., Natvig, J., Nilsen, H., and
+  Skaflestad, B.}
+\newblock Open-source matlab implementation of consistent discretisations on
+  complex grids.
+\newblock {\em Computational Geosciences\/} (2011), 1--26.
+
+\bibitem{lie2010accurate}
+{\sc Lie, K., Ligaarden, I., and Nilsen, H.}
+\newblock Accurate discretization of vertically-averaged models of
+  $\mbox{CO}_2$ plume migration.
+\newblock {\em ECMOR XII--12th European Conference on the Mathematics of Oil
+  Recovery, EAGE, Oxford, UK\/} (2010).
+
+\bibitem{ligaarden2010numerical}
+{\sc Ligaarden, I., and Nilsen, H.}
+\newblock Numerical aspects of using vertical equilibrium models for simulating
+  $\mbox{CO}_2$ sequestration.
+\newblock In {\em Proceedings of ECMOR XII--12th European Conference on the
+  Mathematics of Oil Recovery, EAGE, Oxford, UK\/} (2010).
+
+\bibitem{manzocchi2008sensitivity}
+{\sc Manzocchi, T., Carter, J., Skorstad, A., Fjellvoll, B., Stephen, K.,
+  Howell, J., Matthews, J., Walsh, J., Nepveu, M., Bos, C., et~al.}
+\newblock {Sensitivity of the impact of geological uncertainty on production
+  from faulted and unfaulted shallow-marine oil reservoirs: objectives and
+  methods}.
+\newblock {\em Petroleum Geoscience 14}, 1 (2008), 3--11.
+
+\bibitem{mrst}
+{\sc Matemathics, S.~A.}
+\newblock Matlab reservoir simulation toolbox.
+\newblock \url {http://http://www.sintef.no/MRST}.
+
+\bibitem{matthews2008assessing}
+{\sc Matthews, J., Carter, J., Stephen, K., Zimmerman, R., Skorstad, A.,
+  Manzocchi, T., and Howell, J.}
+\newblock {Assessing the effect of geological uncertainty on recovery estimates
+  in shallow-marine reservoirs: the application of reservoir engineering to the
+  SAIGUP project}.
+\newblock {\em Petroleum Geoscience 14}, 1 (2008), 35--44.
+
+\bibitem{Matthies2005}
+{\sc Matthies, H., G., and Keese., A.}
+\newblock Galerkin methods for linear and nonlinear elliptic stochastic partial
+  differential equations.
+\newblock {\em Comp. Meth. Appl. Mech. Engrg. 194\/} (2005), 1295--1331.
+
+\bibitem{melick2009incorporating}
+{\sc Melick, J., Gardner, M., and Uland, M.}
+\newblock Incorporating geologic heterogeneity in 3d basin-scale models for
+  $\mbox{CO}_2$ sequestration: Examples from the powder river basin, ne wyoming
+  and se montana.
+\newblock In {\em SPE International Conference on $\mbox{CO}_2$ Capture,
+  Storage, and Utilization\/} (2009).
+
+\bibitem{milliken2008effect}
+{\sc Milliken, W., Levy, M., Strebelle, S., and Zhang, Y.}
+\newblock The effect of geologic parameters and uncertainties on subsurface
+  flow: deepwater depositional systems.
+\newblock In {\em SPE Western Regional and Pacific Section AAPG Joint
+  Meeting\/} (2008).
+
+\bibitem{moll2011field}
+{\sc M{\o}ll~Nilsen, H., Herrera, P., Ashraf, M., Ligaarden, I., Iding, M.,
+  Hermanrud, C., Lie, K., Nordbotten, J., Dahle, H., and Keilegavlen, E.}
+\newblock Field-case simulation of $\mbox{CO}_2$ plume migration using
+  vertical-equilibrium models.
+\newblock {\em Energy Procedia 4\/} (2011), 3801--3808.
+
+\bibitem{Morris1991}
+{\sc Morris, M., D.}
+\newblock Morris factorial sampling plans for preliminary computational
+  experiments.
+\newblock {\em Technometrics}, 33 (1991), 161--174.
+
+\bibitem{muskatflow}
+{\sc Muskat, M.}
+\newblock {\em The Flow of Homogeneous Fluids Through Porous Media}.
+\newblock Mac Graw Hill, New York, 1937.
+
+\bibitem{nilsen2012impact}
+{\sc Nilsen, H., Syversveen, A., Lie, K., Tveranger, J., and Nordbotten, J.}
+\newblock Impact of top-surface morphology on co< sub> 2</sub> storage
+  capacity.
+\newblock {\em International Journal of Greenhouse Gas Control 11\/} (2012),
+  221--235.
+
+\bibitem{nordbotten2005injection}
+{\sc Nordbotten, J., Celia, M., and Bachu, S.}
+\newblock Injection and storage of co 2 in deep saline aquifers: Analytical
+  solution for co 2 plume evolution during injection.
+\newblock {\em Transport in Porous Media 58}, 3 (2005), 339--360.
+
+\bibitem{oladyshkin2011concept}
+{\sc Oladyshkin, S., Class, H., Helmig, R., and Nowak, W.}
+\newblock A concept for data-driven uncertainty quantification and its
+  application to carbon dioxide storage in geological formations.
+\newblock {\em Advances in Water Resources 34\/} (2011), 1508--1518,
+  \href{http://dx.doi.org/10.1016/j.advwatres.2011.08.005}{doi:
+  10.1016/j.advwatres.2011.08.005}.
+
+\bibitem{oladyshkinintegrative}
+{\sc Oladyshkin, S., Class, H., Helmig, R., and Nowak, W.}
+\newblock An integrative approach to robust design and probabilistic risk
+  assessment for $\mbox{CO}_{2}$ storage in geological formations.
+\newblock {\em Computational Geosciences 15}, 3 (2011), 565--577,
+  \href{http://dx.doi.org/10.1007/s10596-011-9224-8}{doi:
+  10.1007/s10596-011-9224-8}.
+
+\bibitem{OladNowakBarros_AWR2011}
+{\sc Oladyshkin, S., de~Barros, F. P.~J., and Nowak, W.}
+\newblock Global sensitivity analysis: a flexible and efficient framework with
+  an example from stochastic hydrogeology.
+\newblock {\em Advances in Water Resources In Press\/} (2011),
+  \href{http://dx.doi.org/10.1016/j.advwatres.2011.11.001}{doi:
+  10.1016/j.advwatres.2011.11.001}.
+
+\bibitem{rapoport1953properties}
+{\sc Rapoport, L., and Leas, W.}
+\newblock Properties of linear waterfloods.
+\newblock {\em Trans. AIME 198}, 1953 (1953), 139--148.
+
+\bibitem{reuter2008global}
+{\sc Reuter, U., and Liebscher, M.}
+\newblock Global sensitivity analysis in view of nonlinear structural behavior.
+\newblock In {\em Proceedings of the 7th LS-Dyna Forum, Bamberg\/} (2008).
+
+\bibitem{rosado2007analysis}
+{\sc Rosado-Vazquez, F., Rangel-German, E., and Rodriguez-De La~Garza, F.}
+\newblock Analysis of capillary, gravity and viscous forces effects in
+  oil/water displacement.
+\newblock In {\em International Oil Conference and Exhibition in Mexico\/}
+  (2007).
+
+\bibitem{sahimi2011flow}
+{\sc Sahimi, M.}
+\newblock {\em Flow and transport in porous media and fractured rock: From
+  classical methods to modern approaches}.
+\newblock Wiley-VCH, 2011.
+
+\bibitem{saltelli4global}
+{\sc Saltelli, A.}
+\newblock Global sensitivity analysis: an introduction.
+\newblock In {\em Proc. 4th International Conference on Sensitivity Analysis of
+  Model Output}, pp.~27--43.
+
+\bibitem{saltelli2007global}
+{\sc Saltelli, A.}
+\newblock {\em Global sensitivity analysis: the primer}.
+\newblock Wiley, 2007.
+
+\bibitem{syversveenstudy}
+{\sc Syversveen, A., Nilsen, H., Lie, K., Tveranger, J., and Abrahamsen, P.}
+\newblock A study on how top-surface morphology influences the storage capacity
+  of co 2 in saline aquifers.
+\newblock {\em Geostatistics Oslo 2012\/} (2012), 481--492.
+
+\bibitem{Villadsen1978}
+{\sc Villadsen, J., and Michelsen, M.~L.}
+\newblock {\em Solution of differential equation models by polynomial
+  approximation}.
+\newblock Prentice-Hall, 1978.
+
+\bibitem{Xiu2003}
+{\sc Xiu, D., and Karniadakis, G.~E.}
+\newblock Modeling uncertainty in flow simulations via generalized polynomial
+  chaos.
+\newblock {\em Journal of Computational Physics 187\/} (2003), 137--167.
+
+\bibitem{yang1992analytical}
+{\sc Yang, W.}
+\newblock An analytical solution to two-phase flow in porous media and its
+  application to water coning.
+\newblock {\em SPE Reservoir Eng. J., 1 38\/} (1992).
+
+\bibitem{yortsos1983analytical}
+{\sc Yortsos, Y., and Fokas, A.}
+\newblock An analytical solution for linear waterflood including the effects of
+  capillary pressure.
+\newblock {\em Old SPE Journal 23}, 1 (1983), 115--124.
+
+\bibitem{Zhang_Lu_2004_JCP}
+{\sc Zhang, D., and Lu, Z.}
+\newblock An efficient, high-order perturbation approach for flow in random
+  media via karhunen-loeve and polynomial expansions.
+\newblock {\em Journal of Computational Physics 194\/} (2004), 773--794.
+
+\end{thebibliography}
