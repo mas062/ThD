@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Cygwin)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: scientific_environment.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: listofpublications.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: introduction_papers.aux
+A level-1 auxiliary file: papers.aux
+A level-1 auxiliary file: appendixA.aux
+The style file: acm.bst
+Database file #1: thesis.bib
+Warning--empty journal in eleniuseffects
+Warning--empty year in saltelli4global
+You've used 71 entries,
+            2293 wiz_defined-function locations,
+            948 strings with 17366 characters,
+and the built_in function-call counts, 22869 in all, are:
+= -- 2113
+> -- 1162
+< -- 0
++ -- 495
+- -- 408
+* -- 1828
+:= -- 3761
+add.period$ -- 212
+call.type$ -- 71
+change.case$ -- 405
+chr.to.int$ -- 0
+cite$ -- 73
+duplicate$ -- 806
+empty$ -- 1912
+format.name$ -- 408
+if$ -- 4666
+int.to.chr$ -- 0
+int.to.str$ -- 71
+missing$ -- 75
+newline$ -- 357
+num.names$ -- 142
+pop$ -- 485
+preamble$ -- 1
+purify$ -- 342
+quote$ -- 0
+skip$ -- 405
+stack$ -- 0
+substring$ -- 1275
+swap$ -- 147
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 268
+warning$ -- 2
+while$ -- 214
+width$ -- 73
+write$ -- 692
+(There were 2 warnings)

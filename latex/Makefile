@@ -1,7 +1,9 @@
 
 default:
-	latexmk -pdfdvi thesis.tex
-
+	# latexmk -pdfdvi thesis.tex
+	latexmk thesis.tex
+	dvipdfmx thesis
+	
 cont:
 	#latexmk -pvc -view=dvi thesis.tex
 	latexmk -pdfdvi -pvc -view=pdf thesis.tex
