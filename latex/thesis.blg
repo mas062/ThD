@@ -11,47 +11,48 @@ A level-1 auxiliary file: papers.aux
 A level-1 auxiliary file: appendixA.aux
 The style file: acm.bst
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for "lindeberg1997escape"
 Warning--empty journal in eleniuseffects
 Warning--empty year in saltelli4global
-You've used 71 entries,
+You've used 73 entries,
             2293 wiz_defined-function locations,
-            948 strings with 17366 characters,
-and the built_in function-call counts, 22869 in all, are:
-= -- 2113
-> -- 1162
+            963 strings with 17705 characters,
+and the built_in function-call counts, 23529 in all, are:
+= -- 2180
+> -- 1186
 < -- 0
-+ -- 495
-- -- 408
-* -- 1828
-:= -- 3761
-add.period$ -- 212
-call.type$ -- 71
-change.case$ -- 405
++ -- 506
+- -- 416
+* -- 1886
+:= -- 3865
+add.period$ -- 218
+call.type$ -- 73
+change.case$ -- 415
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 806
-empty$ -- 1912
-format.name$ -- 408
-if$ -- 4666
+cite$ -- 75
+duplicate$ -- 826
+empty$ -- 1970
+format.name$ -- 416
+if$ -- 4801
 int.to.chr$ -- 0
-int.to.str$ -- 71
-missing$ -- 75
-newline$ -- 357
-num.names$ -- 142
-pop$ -- 485
+int.to.str$ -- 73
+missing$ -- 77
+newline$ -- 367
+num.names$ -- 146
+pop$ -- 493
 preamble$ -- 1
-purify$ -- 342
+purify$ -- 350
 quote$ -- 0
-skip$ -- 405
+skip$ -- 415
 stack$ -- 0
-substring$ -- 1275
-swap$ -- 147
+substring$ -- 1336
+swap$ -- 151
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 268
+type$ -- 276
 warning$ -- 2
-while$ -- 214
-width$ -- 73
-write$ -- 692
-(There were 2 warnings)
+while$ -- 222
+width$ -- 75
+write$ -- 712
+(There were 3 warnings)

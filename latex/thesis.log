@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Cygwin) (format=latex 2013.5.3)  31 JUL 2013 00:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Cygwin) (format=latex 2013.5.3)  3 AUG 2013 23:14
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -720,21 +720,21 @@ LaTeX Warning: Label `eq:Fn' multiply defined.
 ) (./introduction_papers.aux) (./papers.aux) (./appendixA.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 163.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 165.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -779,8 +779,8 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box33
-Package backref Info: ** backref set up for natbib ** on input line 163.
-Package hyperref Info: Link coloring ON on input line 163.
+Package backref Info: ** backref set up for natbib ** on input line 165.
+Package hyperref Info: Link coloring ON on input line 165.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -789,65 +789,65 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 163.
-LaTeX Info: Redefining \pageref on input line 163.
-LaTeX Info: Redefining \nameref on input line 163.
+LaTeX Info: Redefining \ref on input line 165.
+LaTeX Info: Redefining \pageref on input line 165.
+LaTeX Info: Redefining \nameref on input line 165.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 184.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 186.
 
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 26.59991pt on input line 184.
-LaTeX Font Info:    Calculating math sizes for size <28> on input line 184.
+(Font)              scaled to size 26.59991pt on input line 186.
+LaTeX Font Info:    Calculating math sizes for size <28> on input line 186.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 18
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 18
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 18
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 184.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 186.
 
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.72015> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16.80017> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 186.
 File: figurer/uglo.eps Graphic file (type eps)
  <figurer/uglo.eps> [1
 
@@ -858,7 +858,7 @@ File: figurer/uglo.eps Graphic file (type eps)
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 184.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 186.
 
 [2
 
@@ -941,8 +941,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 
 [2]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 82.
+
+
+LaTeX Warning: Reference `sec:GeologicalDescription' on page 3 undefined on inp
+ut line 82.
+
 File: ./figurer/G-H_gasses.eps Graphic file (type eps)
- <./figurer/G-H_gasses.eps> [3]
+<./figurer/G-H_gasses.eps> [3]
 File: ./figurer/platform.eps Graphic file (type eps)
  <./figurer/platform.eps>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -952,46 +959,70 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 File: ./figurer/prc3.eps Graphic file (type eps)
+ <./figurer/prc3.eps>
+[4] [5] [6]
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 13.67995pt on input line 360.
+ [7]
+File: ./figurer/delta_fluvial.eps Graphic file (type eps)
+ <./figurer/delta_fluvial.eps>
+File: ./figurer/delta_beach.eps Graphic file (type eps)
+ <./figurer/delta_beach.eps>
+Overfull \hbox (1.52094pt too wide) in paragraph at lines 382--386
+[][][] 
+ []
 
-<./figurer/prc3.eps> [4]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 227.
- [5]
+File: ./figurer/lateral_vertical.eps Graphic file (type eps)
+<./figurer/lateral_vertical.eps> [8]
+
+Package natbib Warning: Citation `lindeberg1997escape' on page 9 undefined on i
+nput line 413.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+
+LaTeX Warning: Reference `tfig:stratMat' on page 10 undefined on input line 439
+.
+
+File: ./figurer/stratMatrix.eps Graphic file (type eps)
+<./figurer/stratMatrix.eps>
 File: ./figurer/fineSat_Perspective_actual.eps Graphic file (type eps)
  <./figurer/fineSat_Perspective_actual.eps>
 File: ./figurer/fineSat_Perspective_uniform.eps Graphic file (type eps)
 
 <./figurer/fineSat_Perspective_uniform.eps>
-File: ./figurer/kxh_all.eps Graphic file (type eps)
- <./figurer/kxh_all.eps>
 File: ./figurer/facies_1.eps Graphic file (type eps)
-
-<./figurer/facies_1.eps>
+ <./figurer/facies_1.eps>
 File: ./figurer/facies_2.eps Graphic file (type eps)
- <./figurer/facies_2.eps>
+
+<./figurer/facies_2.eps>
 File: ./figurer/facies_3.eps Graphic file (type eps)
  <./figurer/facies_3.eps>
 File: ./figurer/facies_4.eps Graphic file (type eps)
-
-<./figurer/facies_4.eps>
+ <./figurer/facies_4.eps>
 File: ./figurer/facies_5.eps Graphic file (type eps)
- <./figurer/facies_5.eps>
+
+<./figurer/facies_5.eps>
 File: ./figurer/facies_6.eps Graphic file (type eps)
  <./figurer/facies_6.eps>
 File: ./figurer/kxh_1.eps Graphic file (type eps)
-
-<./figurer/kxh_1.eps>
+ <./figurer/kxh_1.eps>
 File: ./figurer/kxh_2.eps Graphic file (type eps)
- <./figurer/kxh_2.eps>
+
+<./figurer/kxh_2.eps>
 File: ./figurer/kxh_3.eps Graphic file (type eps)
  <./figurer/kxh_3.eps>
 File: ./figurer/kxh_4.eps Graphic file (type eps)
-
-<./figurer/kxh_4.eps>
+ <./figurer/kxh_4.eps>
 File: ./figurer/kxh_5.eps Graphic file (type eps)
- <./figurer/kxh_5.eps>
+
+<./figurer/kxh_5.eps>
 File: ./figurer/kxh_6.eps Graphic file (type eps)
  <./figurer/kxh_6.eps>
+File: ./figurer/kxh_All.eps Graphic file (type eps)
+ <./figurer/kxh_All.eps>
 File: ./figurer/permxc.eps Graphic file (type eps)
 
 <./figurer/permxc.eps>
@@ -1004,81 +1035,84 @@ File: ./figurer/fineSat3.eps Graphic file (type eps)
 <./figurer/fineSat3.eps>
 File: ./figurer/fineSat4.eps Graphic file (type eps)
  <./figurer/fineSat4.eps>
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 366--376
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 495--505
 [][][] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 363--378
+Overfull \hbox (12.0pt too wide) in paragraph at lines 492--507
 [][][] 
  []
 
-LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 13.67995pt on input line 382.
-[6] [7] [8] [9]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 465.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 524.
 File: ./figurer/lob_1.eps Graphic file (type eps)
- <./figurer/lob_1.eps>
+<./figurer/lob_1.eps>
 File: ./figurer/lob_2.eps Graphic file (type eps)
  <./figurer/lob_2.eps>
 File: ./figurer/lob_3.eps Graphic file (type eps)
-
-<./figurer/lob_3.eps>
+ <./figurer/lob_3.eps> [10] [11]
+[12] [13] [14]
 File: ./figurer/barrier.eps Graphic file (type eps)
- <./figurer/barrier.eps> [10]
+ <./figurer/barrier.eps>
 File: ./figurer/agr.eps Graphic file (type eps)
  <./figurer/agr.eps>
 File: ./figurer/progradation.eps Graphic file (type eps)
 
-<./figurer/progradation.eps> [11]
+<./figurer/progradation.eps>
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
+ [15]
+[16]
 File: ./figurer/BCPB.eps Graphic file (type eps)
  <./figurer/BCPB.eps>
 File: ./figurer/singlePerm.eps Graphic file (type eps)
-
-<./figurer/singlePerm.eps> [12]
+ <./figurer/singlePerm.eps> [17]
 File: ./figurer/wettability.eps Graphic file (type eps)
- <./figurer/wettability.eps>
+
+<./figurer/wettability.eps>
 File: ./figurer/K2.eps Graphic file (type eps)
- <./figurer/K2.eps>
-[13]
+ <./figurer/K2.eps> [18]
 File: ./figurer/Kr.eps Graphic file (type eps)
- <./figurer/Kr.eps> [14]
+ <./figurer/Kr.eps> [19]
 File: ./figurer/Pc.eps Graphic file (type eps)
- <./figurer/Pc.eps> [15]
+
+<./figurer/Pc.eps>
 File: ./figurer/pipe.eps Graphic file (type eps)
  <./figurer/pipe.eps>
 File: ./figurer/pch.eps Graphic file (type eps)
+ <./figurer/pch.eps> [20] [21] [22]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1050
+.
 
-<./figurer/pch.eps> [16] [17]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 991.
-
- (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
+(/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 991.
- [18] [19] [20]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1050.
+
+ [23] [24] [25]
 File: ./figurer/forceBalance_injection.eps Graphic file (type eps)
- <./figurer/forceBalance_injection.eps>
+
+<./figurer/forceBalance_injection.eps>
 File: ./figurer/forceBalance_longMigration.eps Graphic file (type eps)
 
-<./figurer/forceBalance_longMigration.eps> [21] [22]
+<./figurer/forceBalance_longMigration.eps> [26]
 File: ./figurer/VACOL.eps Graphic file (type eps)
- <./figurer/VACOL.eps>
-[23]
+ <./figurer/VACOL.eps> [27]
+[28]
 File: ./figurer/trans.eps Graphic file (type eps)
- <./figurer/trans.eps> [24]
+ <./figurer/trans.eps>
 File: ./figurer/WModel.eps Graphic file (type eps)
- <./figurer/WModel.eps> [25]
+ <./figurer/WModel.eps> [29] [30]
 File: ./figurer/boundaries.eps Graphic file (type eps)
 
 <./figurer/boundaries.eps>
 File: ./figurer/bkw.eps Graphic file (type eps)
- <./figurer/bkw.eps> [26]
+ <./figurer/bkw.eps> [31]
 File: ./figurer/MobRes.eps Graphic file (type eps)
  <./figurer/MobRes.eps>
-[27]
+[32]
 File: ./figurer/LR_2.eps Graphic file (type eps)
  <./figurer/LR_2.eps>
 File: ./figurer/codes.eps Graphic file (type eps)
@@ -1105,40 +1139,40 @@ File: ./figurer/C02331_FS_UG_STL.eps Graphic file (type eps)
 <./figurer/C02331_FS_UG_STL.eps>
 File: ./figurer/C02332_FS_UG_STL.eps Graphic file (type eps)
  <./figurer/C02332_FS_UG_STL.eps>
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 1812--1826
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 1871--1885
 [][][] 
  []
 
-[28] [29] [30]
-Underfull \vbox (badness 8113) has occurred while \output is active []
-
- [31]
-[32] [33]
-File: ./figurer/col.eps Graphic file (type eps)
- <./figurer/col.eps> [34] [35] [36]
-File: ./figurer/ENCL.eps Graphic file (type eps)
- <./figurer/ENCL.eps> [37])
-[38]
-\openout2 = `introduction_papers.aux'.
-
- (./introduction_papers.tex
-Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [33]
+[34] [35] [36] [37] [38]
+File: ./figurer/col.eps Graphic file (type eps)
+ <./figurer/col.eps> [39] [40] [41]
+File: ./figurer/ENCL.eps Graphic file (type eps)
+
+<./figurer/ENCL.eps> [42]) [43]
+\openout2 = `introduction_papers.aux'.
+
+ (./introduction_papers.tex [44
 
 
 
 ]
-[40] [41]
+Chapter 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+[46] [47]
 Underfull \vbox (badness 2213) has occurred while \output is active []
 
- [42])
-[43]
+ [48])
+[49]
 \openout2 = `papers.aux'.
 
- (./papers.tex [44
+ (./papers.tex [50
 
 
 
@@ -1147,8 +1181,8 @@ Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-[46
+ [51]
+[52
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
@@ -1173,7 +1207,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-[47] [48
+[53] [54
 
 ]
 File: ../papers/paper-1/page_0.ps Graphic file (type eps)
@@ -1184,7 +1218,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49] [50
+[55] [56
 
 
 ]
@@ -1205,11 +1239,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[51] [52
+[57] [58
 
 ]
 File: ../papers/paper-2/page_0.ps Graphic file (type eps)
- <../papers/paper-2/page_0.ps> [53] [54
+ <../papers/paper-2/page_0.ps> [59] [60
 
 
 ]
@@ -1230,14 +1264,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[55] [56
+[61] [62
 
 ]
 File: ../papers/paper-3/page_0.ps Graphic file (type eps)
- <../papers/paper-3/page_0.ps> [57])
+ <../papers/paper-3/page_0.ps> [63])
 \openout2 = `appendixA.aux'.
 
- (./appendixA.tex) [58
+ (./appendixA.tex) [64
 
 
 
@@ -1252,35 +1286,40 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-[59
+[65
 
-] [60] [61] [62])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
- [63]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
- (./thesis.aux (./scientific_environment.aux)
-(./acknowledgements.aux) (./abstract.aux) (./listofpublications.aux)
-(./introduction.aux) (./introduction_papers.aux) (./papers.aux)
-(./appendixA.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+] [66] [67] [68])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+[69]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+ (./thesis.aux (./scientific_environment.aux) (./acknowledgements.aux)
+(./abstract.aux) (./listofpublications.aux) (./introduction.aux)
+(./introduction_papers.aux) (./papers.aux) (./appendixA.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 74C782BD83E8D270768064A851ADC15C;2506.
+(rerunfilecheck)             Checksum: 2844BD6D7D4688956B8D4CC55D860C27;2589.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: F40F84925F30030BA9697E904170EA96;6553.
+(rerunfilecheck)             Checksum: E16C980ADE9CA1531DCB724FABDCC924;6749.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
- 10586 strings out of 493489
- 156798 string characters out of 3146902
- 249446 words of memory out of 3000000
- 13594 multiletter control sequences out of 15000+200000
+ 10613 strings out of 493489
+ 157340 string characters out of 3146902
+ 252700 words of memory out of 3000000
+ 13617 multiletter control sequences out of 15000+200000
  86753 words of font info for 160 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,17n,48p,376b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,17n,48p,1187b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (77 pages, 321740 bytes).
+Output written on thesis.dvi (83 pages, 343032 bytes).

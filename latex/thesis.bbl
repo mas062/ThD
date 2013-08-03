@@ -160,6 +160,13 @@
   in a porous medium.
 \newblock {\em Trans. AIME 216\/} (1959), 147.
 
+\bibitem{flett2007heterogeneous}
+{\sc Flett, M., Gurton, R., and Weir, G.}
+\newblock {Heterogeneous saline formations for carbon dioxide disposal: Impact
+  of varying heterogeneity on containment and trapping}.
+\newblock {\em Journal of Petroleum Science and Engineering 57}, 1-2 (2007),
+  106--118.
+
 \bibitem{foo_pcm_JCP2010}
 {\sc Foo, J., and Karniadakis, G.}
 \newblock {Multi-element probabilistic collocation method in high dimensions}.
@@ -404,6 +411,11 @@
 \newblock A study on how top-surface morphology influences the storage capacity
   of co 2 in saline aquifers.
 \newblock {\em Geostatistics Oslo 2012\/} (2012), 481--492.
+
+\bibitem{van1995co}
+{\sc Van~der Meer, L.}
+\newblock The co$_2$ storage efficiency of aquifers.
+\newblock {\em Energy Conversion and Management 36}, 6 (1995), 513--518.
 
 \bibitem{Villadsen1978}
 {\sc Villadsen, J., and Michelsen, M.~L.}

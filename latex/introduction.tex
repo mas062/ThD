@@ -292,94 +292,8 @@ approximating polynomial to perform global sensitivity analysis and
 stochastic uncertainty studies. Using  the relatively fast data-driven method,
 we perform a Monte-Carlo process on $10000$ simulation cases. 
 
-\section{Geological description}
-\label{sec:GeologicalDescription}
-
-
-The central part of a successful $\mbox{CO}_2$ storage fate modeling is to
-provide plenary aquifer models that depict the geological heterogeneity in a
-realistic manner. This requires having an inclusive understanding about model
-sensitivity with respect to different geological parameters and quantifications
-of geological uncertainty and its impacts on the process. 
-
-The conventional practice of geological modeling includes using geostatistical
-models. It is possible that two different heterogeneity patterns produce the
-same geostatistical model, as discussed by Caers \cite{caers2002multiple}.
-Therefore, a geostatistical model does not represent a unique reservoir image
-and if we do not include additive information in the process, we might end-up
-with an unrealistic heterogeneity
-texture\cite{caers2002multiple,eaton2006importance}. The primary  attention in
-our work has been on this issue and to provide a more realistic way of
-geological uncertainty analysis for $\mbox{CO}_2$ sequestration by including
-information of geological features and textures in the process. 
-
-% \begin{figure}
-% \begin{tabular}{cc}
-% \includegraphics[width=0.45 \linewidth]{./figurer/fineSat_Perspective_actual}&
-% \includegraphics[width=0.45 \linewidth]{./figurer/fineSat_Perspective_uniform}
-% \\(a)&(b)
-% \end{tabular}
-% \caption{bla bla bla}
-% \label{fig:faciesAll}
-% \end{figure}
-
-\begin{figure}
-\begin{tabular}{ccc}
-\includegraphics[width=0.3 \linewidth]{./figurer/fineSat_Perspective_actual}&
-\includegraphics[width=0.3 \linewidth]{./figurer/fineSat_Perspective_uniform}&
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_all}\\(a)&(b)&(c)
-\end{tabular}
-\caption{bla bla bla}
-\label{fig:finAll}
-\end{figure}
-
-\begin{figure}
-\begin{tabular}{ccc}
-\includegraphics[width=0.3 \linewidth]{./figurer/facies_1}&
-\includegraphics[width=0.3 \linewidth]{./figurer/facies_2}&
-\includegraphics[width=0.3 \linewidth]{./figurer/facies_3}\\(a)&(b)&(c)\\
-\includegraphics[width=0.3 \linewidth]{./figurer/facies_4}&
-\includegraphics[width=0.3 \linewidth]{./figurer/facies_5}&
-\includegraphics[width=0.3 \linewidth]{./figurer/facies_6}\\(d)&(e)&(f)
-\end{tabular}
-\caption{bla bla bla}
-\label{fig:facies}
-\end{figure}
-
-\begin{figure}
-\begin{tabular}{ccc}
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_1}&
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_2}&
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_3}\\(a)&(b)&(c)\\
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_4}&
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_5}&
-\includegraphics[width=0.3 \linewidth]{./figurer/kxh_6}\\(d)&(e)&(f)
-\end{tabular}
-\caption{bla bla bla}
-\label{fig:kxh}
-\end{figure}
-
-\begin{figure}
-\begin{tabular}{c}
-\includegraphics[trim=1.2cm 0cm 0cm 0cm, clip=true,width=1\linewidth]{./figurer/permxc}\\(a)\\
-\begin{minipage}{1\textwidth}
-\begin{tabular}{cc}
-\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
-{./figurer/fineSat1}&
-\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
-{./figurer/fineSat2}\\
-\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
-{./figurer/fineSat3}&
-\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
-{./figurer/fineSat4}
-\end{tabular}
-\end{minipage}\\(b)
-\end{tabular}
-\caption{bla bla bla}
-\label{fig:upsat}
-\end{figure}
-
-\subsection{Uncertainty}
+\section{Uncertainty Sources}
+\label{uncertaintySources}
 
 Sources of uncertainty can exist in every part of $\mbox{CO}_2$ storage modeling
 process. Herein, we briefly describe each of the possible contributions to the
@@ -421,6 +335,85 @@ challenge.
 the errors introduced by a user for her/his biased choice of modeling tools and
 interpretations of modeling results. 
 
+\section{Geological modeling}
+\label{sec:GeologicalModeling}
+
+
+The central part of a successful $\mbox{CO}_2$ storage fate modeling is to
+provide plenary aquifer models that depict the geological heterogeneity in a
+realistic manner. This requires having an inclusive understanding about model
+sensitivity with respect to different geological parameters and quantifications
+of geological uncertainty and its impacts on the process. 
+
+The conventional practice of geological modeling includes using geostatistical
+models. It is possible that two different heterogeneity patterns produce the
+same geostatistical model, as discussed by Caers \cite{caers2002multiple}.
+Therefore, a geostatistical model does not represent a unique reservoir image
+and if we do not include additive information in the process, we might end-up
+with an unrealistic heterogeneity
+texture\cite{caers2002multiple,eaton2006importance}. The primary  attention in
+our work has been on this issue and to provide a more realistic way of
+geological uncertainty analysis for $\mbox{CO}_2$ sequestration by including
+information of geological features and textures in the process. 
+
+
+\subsection{Geological description}
+
+The geological storage of \coo requires large accommodation of subsurface voumes. Only sedimentary basins, which hold relative large pore volumes, are generally suitable for this mean. However, not all sedimentary basins are similarly appropriate for \coo sequestration.
+
+Convergent basins along active techtonic areas pose a higher risk of \coo leakage due to volcanism, earthquakes, and active faultings. Divergent basins located on the stable lithosphere are much less prone to earthquakes or other catastrophic event that can lead to accidental releases of lareg \coo quantities. Therefore, specific considerations must be done in selecting injecting site locations with respect to security of subsurface storage.
+
+Sedimentary basins are composed of various lithological facies. Stratigraphic artchitecture and sandbody geometry control the capacity and effectiveness of \coo sequestration. As a result of varius techtonic dipositional and errosional process, low and high permeability rocks are accumulated on top of each other that can form stratigraphic flowpath leading to various directions and speed of subsurface flow. Three types of formations can be characterized: aquifers, aquitards, and aquicludes. 
+
+Aquifers are high permeability strata that provide major beddings for flow transport. Good rock quality in continuous sandbodies allow for efficient \coo storage in an acceptable capacity volumes. Aquitards are made of low permeability strata that provide beddings with orders of magnitude slower flow than aquifers. Layers of aquifers and aquitards are formed by thick accumulation of sediments that undergo barial, compaction, lithification and uplift over millions of years. They cn be covered by aquicludes, which are evaporitic beds that are imprevious to fluid flow.
+
+Typical seal rocks include, from most ductile to most britle : salt, anhydrite, krogen-rich shales, dense mudstone, tightly cemented sandstones, anhydrite-filled dolomite, carbonate, or silica-cemented sandstones, and cherts REF.
+
+Aquifer pressure is normally close to hydrostatic, because of the conductivity within the medium that allows for pressure equilibrium over long time. High pressurized compartments can exist in highly sealed structures. The pressure of the sedimentary basin have a significant impact on its suitibility for \coo storage REF.
+trapping mechanism for \coo is in two main parts: stratigraphic and structural traps. Stratigraphic trapping  is pramiraly controlled by the geometery of dipositional facies and sand body continuity. These factors control the permeability distributition within the medium that controls the efficiency of injection and storage of \coo. 
+
+Structural heterogeneity factors include faults, folds, and fracture intensity. the dip angle of formation layers control the buoyancy forces applyibng on \coo plume migrating along the conductive layer. Fractures can enhance the mobility of the plume and sealing faults can provide structural traps for long term \coo storage. Anticline structures also can be a permanent trap for stored \coo.
+
+Depositional environment varies between fluvial to marine syetsms. The texture and degree of sandiness of beach deposits are a function of the shore profile, typically consisting of a gently sloping formation layering in a transition from near shore to deep offshore. Deposits range from sandy, coarse grain structure near the shore, to muddy, burrowed, fine grained sand in the lower off shore. High energy near the shore that is a result of interplay between wave, fluvial, and tidal forces, filters out the larger grains in the deposition.
+
+Therefor, near the shore contains large continuous sand bodies that have good quality rock. This is the reason for shallow-marine systems to be appropriate trap for hydrocharbones and analogeaousely, good candidates for \coo storage.
+
+\begin{figure}
+\begin{tabular}{cc}
+\includegraphics[width=0.3\textwidth]{./figurer/delta_fluvial}&
+\includegraphics[width=0.65\textwidth]{./figurer/delta_beach}\\(a)&(b)
+\end{tabular}
+\end{figure}
+
+The beach facies normally are homogeneaous rocks with internal heterogeneity due to tidal systems. In contrast, mixed-load fluvial that contain both mud and sand are more heterogeneous than beach systems. The presence of numerous mud drapes as a result of periodic floods, serve as barriers to fluid flow. Heterogeneity in the fluvial systems exist in multiscale levels, from small scale variations of rock type near the river bed, to the large scale heterogeneity in fluvial channel fill sandstones and over-bank deposits. Heterogeneity also occurs within these systems in the form of muddy abandoned channel fill deposits.
+
+In theory, we prefer a medium that allows for more lateral movement to overcome the buoyancy bypassing of the flow. Heterogeneity in the vertical direction, such as shales inter-bed barriers can serve for this and disperse the flow in the lateral direction. Structural heterogeneities can have a similar impact. In addition, splitting a large plume into smaller plumes lowers the risk of leakage of huge \coo amounts via potential breakings in the integrity of the sealing barriers, or abondoned wells.
+
+\coo injectivity is related to sequestration capacity and effectiveness, and can be defined by the conductive cross sectional area. Stratigraphic factors that enhance injectivity are high permeability and injection interval thickness. In addition, the lateral permeability architecture can influence the injectivity quality. The lower the injectivity is, the higher will be the pressure buildup in the medium due to injection.
+
+\begin{figure}
+\includegraphics[width=0.7\linewidth]{./figurer/lateral_vertical}
+\end{figure}
+
+Over the last two decades, there have been a large number of studies concerning the subsurface storage of \coo. Several authors investigate the efficiency of geological \coo storage based on regional data in a specific site location.
+
+A case study from the Texas Gulf Coast investigates the susequestration capacity and efficiency in accordance to the geological heterogeneity. The study performs a site-scale assessment of applicability of geological sequestration in brine formation. Injection is considered in the Frio formation which is a sandstone-rich, high quakity, overlain by a thick, regionally extensive shale in the upper Texas Gulf Coast. Migration of \coo during injection (20 years), and post-injection (40 years)is studied within different heterogeneities represented by stochastic modeling of geological sediment via petrophysical parameters. Structural heterogeneity is modeled by layers dip angle and faukts at different locations. Six models are made based on regional available geological information. 
+
+The study shows that in a homogenuous rock volume, \coo flow paths are dominated by buoyancy, bypassing much of the lateral rock volume. If the permeable rock is interbedded with multiple low permeability layers, the flow paths are dispersed, enhancing the lateral movements of  \coo allowing for larger percentage of contact with rock volume. The study suggests that dip angle enhances buoyancy forces and decreases storage capacity, while compartmentalization by faulting appears to increase sequestration capacity at the cost of increased pressure, and consequently, increased risk of \coo leakage.
+
+A number of pilot sites are established worlwide to test the large scale injection of \coo in the subsurface formation. The In Salah project in Algeria is an industrial-scale injection project into a fructure-influenced, matrix-dominated sandstone formation. The reservoir matrix comprises tidal deltaic sandstone. The project benefits from relatively high level of data aquisition: wireline and LWD well logs, image logs and production and geophysical monitoring. In addition, most valuable monitoring method has been the usage of satellite air.borne radar above the injection well. Also, chemical tracers are used in the injected \coo to differentiate the natural \coo in place from the injected volymes, when the \coo breaks through other wells.
+
+The detailed analysis highlights the geological controls on the movement and dispersion of \coo plumes. The injection is performed via a horisontal well perpendicular to the geomechanical stress field and the faults presenting in the domain. This, along with the fracture network, enhance the plume migration- about three times faster than the flow in a homogenuous domain.
+
+Resaults from In Salah illustrate the value of reducing geological uncertainty by employing sufficient logging tools and monitoring techniques. 
+
+\coo-SINK project at Ketzin Germany, is another pilot site for practicing subsurface \coo injection. The injection is performed in the Stuttgart formation that is geologically heterogeneous within an anticline structure. The Stuttgart formation is made of sandy channel facies of good rock quality alternate with muddy flood-plain-facies. A thick cap-rock section covers the Stuttgart formation.
+
+
+Prctically, including all details of every scale into flow simulation model is impossible. Various simplifications have been made to account for heterogenities in modleing. Some earlier studies consider two dimensional modeling, with homogenuous or geostatistically populated permeabilities. The study in \cite{lindeberg1997escape} simulates an escape rate of \coo in a homogenuous medium similar to Utsira formation in Norway. By changing the horizontal permeability, they ephasise that the permeability of the layer beneath the cap-rock (where most of \coo injected volume accumulate due to buoyancy forces), plays an influencial role in the \coo migration process. However, this study assumes no vertical heterogeneities. A layered heterogeneity is examined in \cite{van1995co}. They used a log normal distribution of permeability in a simplified two dimensional grid to account for viscous and gravity forces. Results suggest that the sweep efficiency of \coo in the porous medium is low, and heterogeneity, in particular the vertical transimissibility, can have a big impact on the storage efficiency. 
+
+To examine the impact that the geological heterogeneity degree can have on the $\mbox{CO}_2$ sequestration modeling, \cite{flett2007heterogeneous} constructued a suite of three dimensional simulation models, with varying net to gross ratios. A radial variogram, with a shale length of 300 m, was used to
+populate five models of varying degrees of net-sand-togross-shale ratios. The models were up-scaled, using flow-based methods, to make the computation feasible. The study concludes that formations containing shale barriers are effective in containing an injected CO2 plume within the formationand that heterogeneity serves to limit the reliance of the formation seal as the only mechanism for containment.
 
 \subsection{Geological parameters}
 
@@ -441,18 +434,84 @@ depositional systems. The main objective of the SAIGUP project has been to
 perform a quantitative sensitivity analysis to measure the impact of
 sedimentological and structural variations within geological descriptions on 
 oilfield recovery estimates
-\cite{howell2008sedimentological,manzocchi2008sensitivity,matthews2008assessing}
-. 
+\cite{howell2008sedimentological,manzocchi2008sensitivity,matthews2008assessing}. 
 
-Sedimentological variability was modeled in small and large scales and combined
-to provide realistic variations of reservoir heterogeneities. Structural aspects
-are modeled via fault modeling within geological description. Faults are
-considered in different levels of intensity, orientation, and transmissibility.
-Five waterflood scenarios were designed in various injection-production well
-patterns, resulting in simulated production behavior for over $35000$ full-field
-reservoir models. All models have the same total pore volume and vary in few
-number of grid geometries. 
+Six different rock types are considered in the geological modeling.  The rock properties within each facies are populated based on real data. Variations are considered in a horizontal-vertical matrix in three levels of heterogeneities, low, medium, and high, as illustrated in Figure \ref{tfig:stratMat}. The design focused on special considerations. For example, making complex enough heterogeneities to be a plausible representative of realistic models, and producing large enough number of realizations with sufficient overlapping to be able to perform a quantitative sentivity analysis.
 
+Sedimentological variability is modeled in small and large scales and combined
+to provide realistic variations of reservoir heterogeneities.  All models are considered in a progradational sedimentary environment. A reqular grid is used for all of the realizations and the total bulk volume is the same in all cases. Each geological realization contains about $1.5$ million cells in the fine model. Figure \ref{fig:finAct} shows the fine grid model for a selected realization with medium level of heterogeneity. A major fault in the model breaks the structure and makes large vertical depth difference in the two parts of the model (from about $1500$ m to $3000$ m).  Thickness of the model is much smaller than these depth differences. in order to see the property variations on the grid in the vertical direction, we map the properties on a flat uniform geometry (Figure \ref{fig:finUnf}).
+
+Figure \ref{fig:facies} shows the spatial distribution of the six modelled facies in the selected realization, and Figure \ref{fig:kxh} shows the histogram of lateral transmissibility within each facies and the total model in the logarithm scale.
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{./figurer/stratMatrix}
+\label{fig:stratMat}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.8 \linewidth]{./figurer/fineSat_Perspective_actual}
+\caption{bla bla bla}
+\label{fig:finAct}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.8 \linewidth]{./figurer/fineSat_Perspective_uniform}
+\caption{bla bla bla}
+\label{fig:finUnf}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{ccc}
+\includegraphics[width=0.3 \linewidth]{./figurer/facies_1}&
+\includegraphics[width=0.3 \linewidth]{./figurer/facies_2}&
+\includegraphics[width=0.3 \linewidth]{./figurer/facies_3}\\(a)Coastal Plain&(b)Lower Shoreface&(c)Upper Shoreface\\
+\includegraphics[width=0.3 \linewidth]{./figurer/facies_4}&
+\includegraphics[width=0.3 \linewidth]{./figurer/facies_5}&
+\includegraphics[width=0.3 \linewidth]{./figurer/facies_6}\\(d)Offshore Tranzition&(e)Offshore&(f)Channels
+\end{tabular}
+\caption{bla bla bla}
+\label{fig:facies}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{ccc}
+\includegraphics[width=0.3 \linewidth]{./figurer/kxh_1}&
+\includegraphics[width=0.3 \linewidth]{./figurer/kxh_2}&
+\includegraphics[width=0.3 \linewidth]{./figurer/kxh_3}\\(a)&(b)&(c)\\
+\includegraphics[width=0.3 \linewidth]{./figurer/kxh_4}&
+\includegraphics[width=0.3 \linewidth]{./figurer/kxh_5}&
+\includegraphics[width=0.3 \linewidth]{./figurer/kxh_6}\\(d)&(e)&(f)\\
+&\includegraphics[width=0.3 \linewidth]{./figurer/kxh_All}&\\&(g)&
+\end{tabular}
+\caption{bla bla bla}
+\label{fig:kxh}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{c}
+\includegraphics[trim=1.2cm 0cm 0cm 0cm, clip=true,width=1\linewidth]{./figurer/permxc}\\(a)\\
+\begin{minipage}{1\textwidth}
+\begin{tabular}{cc}
+\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
+{./figurer/fineSat1}&
+\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
+{./figurer/fineSat2}\\
+\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
+{./figurer/fineSat3}&
+\includegraphics[trim=0.5cm 0cm 0cm 2.5cm, clip=true,width=0.5 \linewidth]
+{./figurer/fineSat4}
+\end{tabular}
+\end{minipage}\\(b)
+\end{tabular}
+\caption{bla bla bla}
+\label{fig:upsat}
+\end{figure}
+%%%
+Structural aspects are modeled via fault modeling within geological description. Faults are
+considered in different levels of intensity, orientation, and transmissibility. 
+
+%%%
 Although these models were designed to study the impact of geological
 heterogeneity on oil recovery, they may also be used to model a scenario in
 which $\mbox{CO}_2$ is injected into an abandoned reservoir. Therefore, we have
