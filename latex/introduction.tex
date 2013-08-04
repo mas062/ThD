@@ -439,9 +439,12 @@ oilfield recovery estimates
 Six different rock types are considered in the geological modeling.  The rock properties within each facies are populated based on real data. Variations are considered in a horizontal-vertical matrix in three levels of heterogeneities, low, medium, and high, as illustrated in Figure \ref{tfig:stratMat}. The design focused on special considerations. For example, making complex enough heterogeneities to be a plausible representative of realistic models, and producing large enough number of realizations with sufficient overlapping to be able to perform a quantitative sentivity analysis.
 
 Sedimentological variability is modeled in small and large scales and combined
-to provide realistic variations of reservoir heterogeneities.  All models are considered in a progradational sedimentary environment. A reqular grid is used for all of the realizations and the total bulk volume is the same in all cases. Each geological realization contains about $1.5$ million cells in the fine model. Figure \ref{fig:finAct} shows the fine grid model for a selected realization with medium level of heterogeneity. A major fault in the model breaks the structure and makes large vertical depth difference in the two parts of the model (from about $1500$ m to $3000$ m).  Thickness of the model is much smaller than these depth differences. in order to see the property variations on the grid in the vertical direction, we map the properties on a flat uniform geometry (Figure \ref{fig:finUnf}).
+to provide realistic variations of reservoir heterogeneities.  All models are considered in a progradational sedimentary environment. A reqular grid is used for all of the realizations in two gridding resilutions, fine and coarse, and the total bulk volume is the same in all cases. Each geological realization contains about $1.5$ million cells in the fine model. Figure \ref{fig:finAct} shows the fine grid model for a selected realization with medium level of heterogeneity. A major fault in the model breaks the structure and makes large vertical depth difference in the two parts of the model (from about $1500$ m to $3000$ m).  Thickness of the model is much smaller than these depth differences. To make it easier to see the property variations on the grid in the vertical direction, we map the properties on a flat uniform geometry (Figure \ref{fig:finUnf}).
 
-Figure \ref{fig:facies} shows the spatial distribution of the six modelled facies in the selected realization, and Figure \ref{fig:kxh} shows the histogram of lateral transmissibility within each facies and the total model in the logarithm scale.
+Figure \ref{fig:facies} shows the spatial distribution of the six modelled facies in the selected realization, and Figure \ref{fig:kxh} shows the histogram of lateral transmissibility within each facies and the total model in the logarithm scale. Each facies is modeled separately in some levels of upscaling starting from the lamina scales, before pupulating on the fine grid. Flow based upscaling techniques are used, and the suitability of the methods depends on the balance of
+forces. When the medium is conductive due to high permeabity, the visouse dominated steady state method is used. In the rocks with lower transmissibility where the capillary forces are dominant, the capillary equilibrium is assumed.
+
+On the last step, the fine populated grid is mapped on to the coarse grid that is to be used for the flow solver. Since the grid size in the fine model is too expensive comutationally for flow simulations, the lateral dimension is doubled in each cell while every four layers are lumped into one layer in the vertical direction. Figure \ref{fig:upsat} shows the top view of lateral transimissibility in logarithmic scale for four consequetive layers of a selected case, and their corresponding upscaled layer in the coasre grid.
 
 \begin{figure}
 \centering
@@ -507,10 +510,15 @@ Figure \ref{fig:facies} shows the spatial distribution of the six modelled facie
 \caption{bla bla bla}
 \label{fig:upsat}
 \end{figure}
-%%%
-Structural aspects are modeled via fault modeling within geological description. Faults are
-considered in different levels of intensity, orientation, and transmissibility. 
 
+Structural aspects are modeled via fault modeling within geological description. Within the SAIGIP setup, faults are considered in different levels of intensity, orientation, and transmissibility. The orientations may vary in both lateral directions, and we consider a grid that contains faults in both directions (Figure \ref{fig:fltGrd}).
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{./figurer/faultedGrid}
+\label{fig:fltGrd}
+\caption{bla bla bla}
+\end{figure}
 %%%
 Although these models were designed to study the impact of geological
 heterogeneity on oil recovery, they may also be used to model a scenario in
@@ -1867,22 +1875,103 @@ together.}
 %
 \end{figure}
 
+%===> 
+
 \begin{figure}
 \begin{tabular}{cc}
-\includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_TY.eps}&
-\includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_TY.eps}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_LogKz_pers}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_LogKz_pers}
 \\(a)&(b)\\
-\includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_TZNZ.eps}&
-\includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_TZNZ.eps}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_LogKz_slcx}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_LogKz_slcx}
 \\(c)&(d)\\
-\includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_TZz.eps}&
-\includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_TZz.eps}
-\\(e)&(f)\\
-\includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_STL.eps}&
-\includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_STL.eps}
-\\(g)&(h)
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_LogKz_slcy}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_LogKz_slcy}
+\\(e)&(f)
 \end{tabular}
 \end{figure}
+
+\begin{figure}
+\begin{tabular}{cc}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_LogKy_pers}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_LogKy_pers}
+\\(a)&(b)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_LogKy_slcx}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_LogKy_slcx}
+\\(c)&(d)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_LogKy_slcy}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_LogKy_slcy}
+\\(e)&(f)
+\end{tabular}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cc}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_CO2atEOI_pers}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_CO2atEOI_pers}
+\\(a)&(b)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_CO2atEOI_slcx}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_CO2atEOI_slcx}
+\\(c)&(d)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_CO2atEOI_slcy}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_CO2atEOI_slcy}
+\\(e)&(f)
+\end{tabular}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cc}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_CO2atEOS_pers}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_CO2atEOS_pers}
+\\(a)&(b)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_CO2atEOS_slcx}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_CO2atEOS_slcx}
+\\(c)&(d)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_CO2atEOS_slcy}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_CO2atEOS_slcy}
+\\(e)&(f)
+\end{tabular}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cc}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_FlowSign_pers}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_FlowSign_pers}
+\\(a)&(b)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_FlowSign_slcx}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_FlowSign_slcx}
+\\(c)&(d)\\
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_FlowSign_slcy}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_FlowSign_slcy}
+\\(e)&(f)
+\end{tabular}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cc}
+\includegraphics[width=0.45\textwidth]{./figurer/C02222_hist_foiSX}&
+\includegraphics[width=0.45\textwidth]{./figurer/C03211_hist_foiSX}
+\\(a)&(b)
+\end{tabular}
+\end{figure}
+
+
+% \begin{figure}
+% \begin{tabular}{cc}
+% \includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_TY.eps}&
+% \includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_TY.eps}
+% \\(a)&(b)\\
+% \includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_TZNZ.eps}&
+% \includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_TZNZ.eps}
+% \\(c)&(d)\\
+% \includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_TZz.eps}&
+% \includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_TZz.eps}
+% \\(e)&(f)\\
+% \includegraphics[width=0.5\textwidth]{./figurer/C02331_FS_UG_STL.eps}&
+% \includegraphics[width=0.5\textwidth]{./figurer/C02332_FS_UG_STL.eps}
+% \\(g)&(h)
+% \end{tabular}
+% \end{figure}
 
 % \begin{figure}
 % \begin{tabular}{c}
