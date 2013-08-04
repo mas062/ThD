@@ -1630,10 +1630,11 @@ pressure disturbance imposed by the injector can go beyond this
 scale. To compensate for the size, we choose hydrostatics boundary conditions
 for the models. The open boundaries are modeled by considering a huge pore
 volume for the outer cells in the model that represent the boundary. Figure
-\ref{fig:BDRY} shows the boundary condition defined in the model.
+\ref{fig:BDRY} shows the boundary condition defined in the model. 
 
-We consider the injection of $20\%$ of the total model pore volume,
-which amounts to $40~\mbox{MM m}^3$. This volume is injected into realizations
+The choice of open boundary is not valid in domains that are bounded by structural seals. In fact, for the close and semi-close domains the pressure is a main control on the storage capacity along with other parameters. We assume open boundaries, and the results of our study can change significantly by choosing different boundary condition. On the other hand, representing the boundary by a larg pore volumes on the outer closed cells makes the pressure to relax earlier than it does in a large infinte domain. Therefore, the pressure responses in our study, which are already extreme in many cases due to heterogeneity, can be magnified when it is run in huge sized models.
+
+We consider the injection of $20\%$ of the total model pore volume (excluding the large volumes at the boundaries), which amounts to $40~\mbox{MM m}^3$. This volume is injected into realizations
 in three different scenarios. In the first scenario, the injection is forced to
 finish in
 $30~\mbox{years}$ and the pressure in the system is allowed to rise
@@ -1662,8 +1663,7 @@ up-moving $\mbox{CO}_2$ plume, the injector is completed only in the lower part
 of
 the aquifer. The injector location and the completed layers are fixed for all of
 the realizations. The studies here aim to identify the influence of uncertainty
-on injectivity and fixing a place for injection helps in achieving this goal. In
-a deterministic case, we can complete the well in the best quality layers. 
+on injectivity and fixing a place for injection helps in achieving this goal. As mentioned earlier, injectivity is a big player in the success of the operations. Near wellbore uncertainty might be less than the larger scale in the domain, but yet requires costly operation data aquisition. Fixing the location of the well serves specifiying the probability of having a feasible injectivity in different heterogeneities.
 
 There are few locations of distorted geometries in the faulted realizations that
 may be considered as structural traps for the injected $\mbox{CO}_2$. The
